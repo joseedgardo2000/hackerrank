@@ -1,0 +1,1 @@
+SELECT salary * months as maxsueldo, count(*) FROM employee GROUP BY maxsueldo ORDER BY maxsueldo DESC LIMIT 1;
